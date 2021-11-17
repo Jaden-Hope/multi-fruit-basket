@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - 12
+
+branches:
+  only:
+  - gh-pages
+
+services:
+  - postgresql
+
+before_script:
+  - psql -c 'create database fruitbasket;' -U postgres
+  - psql -a -d fruitbasket -f multiFruitBasket.SQL -U postgres

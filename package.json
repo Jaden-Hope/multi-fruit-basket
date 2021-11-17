@@ -1,0 +1,25 @@
+{
+  "name": "multi-fuit-basket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "multiFruitFactory.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaden-Hope/multi-fruit-basket.git"
+  },
+  "author": "Jaden Hope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaden-Hope/multi-fruit-basket/issues"
+  },
+  "homepage": "https://github.com/Jaden-Hope/multi-fruit-basket#readme",
+  "dependencies": {
+    "pg": "^8.7.1"
+  }
+}
