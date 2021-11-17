@@ -3,8 +3,8 @@ const Factory = require('../multiFruitFactory');
 
 const { Pool } = require('pg');
 
-const connectionString = process.env.DATABASE_URL || 'postgres://jaden:mypass@localhost:5432/fruitbasket';
-// const connectionString = 'postgres://postgres@localhost/fruitbasket';
+// const connectionString = process.env.DATABASE_URL || 'postgres://jaden:mypass@localhost:5432/fruitbasket';
+const connectionString = 'postgres://postgres@localhost/fruitbasket';
 
 const pool = new Pool({
     connectionString,
